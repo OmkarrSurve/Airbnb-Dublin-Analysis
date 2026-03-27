@@ -148,11 +148,11 @@ One row per guest inquiry made for a Dublin listing.
 ```
 airbnb-dublin-analysis/
 │
-├── data/
+├── data
 │   ├── searches.tsv          # Guest search data
 │   └── contacts.tsv          # Guest inquiry and host response data
 │
-├── analysis.py               # Full analysis and chart generation script
+├── market-analysis-dublin-airbnb.ipynb               # Full analysis and chart generation script
 ├── README.md                 # Project documentation
 ```
 
@@ -169,14 +169,14 @@ airbnb-dublin-analysis/
 ### Locally
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/airbnb-dublin-analysis.git
+git clone https://github.com/OmkarrSurve/Airbnb-Dublin-Analysis.git
 cd airbnb-dublin-analysis
 
 # Install dependencies
 pip install pandas numpy matplotlib seaborn
 
 # Run the analysis
-python analysis.py
+market-analysis-dublin-airbnb.ipynb  
 ```
 
 ---
